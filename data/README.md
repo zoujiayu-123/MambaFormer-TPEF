@@ -4,12 +4,12 @@ The dataset used in this work is based on the **NIST Campus Photovoltaic (PV) Ar
 
 ## Source
 Public dataset website:
-- NIST Campus Photovoltaic (PV) Arrays and Weather Station Data Sets
+- [NIST Campus Photovoltaic (PV) Arrays and Weather Station Data Sets](https://catalog.data.gov/dataset/nist-campus-photovoltaic-pv-arrays-and-weather-station-data-sets-05b4d)
 
 This repository does **not** include the complete raw dataset because of its large size.
 
 ## Description
-According to the public dataset description, the data contain photovoltaic array measurements and weather station observations collected on the NIST campus. The original public source covers multiple years and includes PV and meteorological measurements.
+The public dataset contains photovoltaic array measurements and weather station observations collected on the NIST campus. The original public source covers multiple years and includes PV and meteorological measurements.
 
 ## Repository Data Policy
 To keep this repository lightweight and easy to access:
