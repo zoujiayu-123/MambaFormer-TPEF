@@ -1,0 +1,95 @@
+{
+  "by_power_level": {
+    "low": {
+      "count": 8098,
+      "mean_peak": 29.967566330985896,
+      "value_rmse": 66.33884998275984,
+      "value_mae": 57.77999211602686,
+      "time_mae": 1.8379846875771795,
+      "within_1h": 0.7157322795752038
+    },
+    "mid": {
+      "count": 8340,
+      "mean_peak": 117.89786650568462,
+      "value_rmse": 32.67290550495338,
+      "value_mae": 26.25988471582353,
+      "time_mae": 1.490167865707434,
+      "within_1h": 0.6062350119904076
+    },
+    "high": {
+      "count": 8097,
+      "mean_peak": 180.3614233298936,
+      "value_rmse": 59.03497401485575,
+      "value_mae": 56.33780827333239,
+      "time_mae": 0.6816104730146968,
+      "within_1h": 0.9480054341113993
+    }
+  },
+  "by_day": {
+    "day_1": {
+      "value_rmse": 53.59189239238335,
+      "value_mae": 45.53471106253179,
+      "time_mae": 1.3492154065620543,
+      "within_1h": 0.7532097004279601
+    },
+    "day_2": {
+      "value_rmse": 54.40096497946266,
+      "value_mae": 46.46731834493713,
+      "time_mae": 1.3549215406562054,
+      "within_1h": 0.7517831669044223
+    },
+    "day_3": {
+      "value_rmse": 54.88443568427834,
+      "value_mae": 47.30717353307696,
+      "time_mae": 1.3443651925820257,
+      "within_1h": 0.7540656205420827
+    },
+    "day_4": {
+      "value_rmse": 55.16134127383323,
+      "value_mae": 47.767404351327514,
+      "time_mae": 1.3275320970042797,
+      "within_1h": 0.7586305278174037
+    },
+    "day_5": {
+      "value_rmse": 55.071171341125215,
+      "value_mae": 47.55534417308301,
+      "time_mae": 1.3281027104136947,
+      "within_1h": 0.7583452211126962
+    },
+    "day_6": {
+      "value_rmse": 53.99820895423847,
+      "value_mae": 46.10046769680333,
+      "time_mae": 1.3263908701854494,
+      "within_1h": 0.7572039942938659
+    },
+    "day_7": {
+      "value_rmse": 54.071306271362026,
+      "value_mae": 45.395126708347576,
+      "time_mae": 1.336376604850214,
+      "within_1h": 0.7529243937232525
+    }
+  },
+  "error_patterns": {
+    "underestimate_ratio": 0.5428163847564703,
+    "overestimate_ratio": 0.45718361524352963,
+    "early_prediction_ratio": 0.12635011208477684,
+    "late_prediction_ratio": 0.39005502343590787,
+    "mean_value_bias": -1.609749336945474,
+    "mean_time_bias": 0.5147340533931118
+  },
+  "extreme_errors": {
+    "value_threshold": 84.26646728515627,
+    "value_extreme_count": 2454,
+    "value_extreme_ratio": 0.10002037905033626,
+    "time_threshold": 2,
+    "time_extreme_count": 4316,
+    "time_extreme_ratio": 0.17591196250254737
+  },
+  "power_error_correlation": {
+    "pearson_r": -0.13879623320885043,
+    "pearson_pval": 8.62364390049448e-106,
+    "spearman_r": -0.06011850243519714,
+    "spearman_pval": 4.309332785036528e-21,
+    "interpretation": "positive = higher power days have larger errors"
+  }
+}
